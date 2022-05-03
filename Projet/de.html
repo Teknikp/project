@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  
+    <link rel="stylesheet" href="de.css">
+     
+    
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Prendre rendez-vous </title> 
+    <link rel="shortcut icon" type="image/jpg" href="image/logo.jpg">
+</head>
+<body>
+    
+
+    <header class="header">
+
+        <a href="index.html" class="logo"><i class="fa-solid fa-house-medical-circle-check"></i>Clinique Hibiscus </a>
+    
+        <nav class="navbar">
+            <a href="index.html">Accueuil</a>
+            <a href="#">Rendez-vous</a>
+            <a href="doctors.html">Docteurs</a>
+            <a href="contact.html">Contact</a>
+            <a href="services.html">Services</a>
+        </nav>
+    
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+    </header>
+
+    
+    <div class="container">
+        <header>Rendez-vous</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Informations personnelles</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Nom</label>
+                            <input type="text" placeholder="Nom" required oninvalid="this.setCustomValidity('Entrez votre nom');" oninput="setCustomValidity('')">
+                        </div>
+                        <div class="input-field">
+                            <label>Prénom</label>
+                            <input type="text" placeholder="Prénom" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Genre</label>
+                            <select required>
+                                <option disabled selected>Genre</option>
+                                <option>Masculin</option>
+                                <option>Féminin</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Adresse</label>
+                            <input type="text" placeholder="Adresse" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Téléphone</label>
+                            <input type="number" placeholder="Téléphone" minlength="8" required>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Détails specifiques</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Départements</label>
+                            <select required>
+                                <option disabled selected>Département</option>
+                                <option>Obstetrique</option>
+                                <option>Gynecologie</option>
+                                <option>Pediatrie</option>
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Docteurs</label>
+                            <select required>
+                                <option disabled selected>Choisir le docteur</option>
+                                <option>Dr Joachin</option>
+                                <option>Dr Auguste</option>
+                                <option>Dr Alphonse</option>
+                                <option>Dr Joseph</option>
+                                <option>Dr Ricardo</option>
+                                <option>Dr Desruisseaux</option>
+                                <option>Dr Zamor</option>
+                                <option>Dr Hyppolite</option>
+
+                            </select>
+                        </div>
+                        <div class="input-field">
+                            <label>Date du rendez-vous</label>
+                            <input type="date" required>
+                        </div>
+
+
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Suivant</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            <div class="form second">
+                <div class="details address">
+                    <span class="title">Informations supplémentaires</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Raison du rendez-vous</label>
+                            <select required>
+                                <option>Routine</option>
+                                <option>Urgence medicale</option>
+                                <option>Autres</option>
+                            </select>
+                        </div>
+
+                        
+
+                        <div class="input-field">
+                            <label>Etes vous un habitué de la clinique</label>
+                            <select required>
+                                <option>Oui</option>
+                                <option>Non</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Comment comptez-vous payer</label>
+                            <select required>
+                                <option>Cash</option>
+                                <option>Carte de credit/debit</option>
+                                <option>Cheques</option>
+                            </select>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                
+
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Précédent</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Suivant</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    
+
+    <script src="de.js"></script>
+</body>
+</html>
