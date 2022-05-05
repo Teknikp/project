@@ -14,7 +14,6 @@
     margin:0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
-    text-transform: capitalize;
     transition: all .2s ease-out;
     text-decoration: none;
 }
@@ -128,37 +127,41 @@ span{
     display: none;
 }
 
-.doctors .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:2rem;
-    padding-bottom: 10px;
-}
-
-.doctors .box-container .box{
-    text-align: center;
-    background:#fff;
-    border-radius: .5rem;
-    border:var(--border);
-    box-shadow: var(--box-shadow);
-    padding:2rem;
-}
-
-.doctors .box-container .box img{
-    height: 20rem;
-    border:var(--border);
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.doctors .box-container .box h3{
-    color:var(--black);
-    font-size: 2.5rem;
-}
-
-.doctors .box-container .box span{
-    color:rgb(219, 84, 97);
-    font-size: 1.5rem;
-}
-
+.content-table {
+    margin-top: 80px;
+    font-size: 14px;
+    min-width: 1300px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: rgb(219, 84, 97);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(219, 84, 97);
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+  }
+  

@@ -6,7 +6,7 @@
     --light-color:#777;
     --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-    --border:.2rem solid rgb(219, 84, 97);
+    --border:.2rem solid #F4705C;
 }
 
 *{
@@ -14,7 +14,6 @@
     margin:0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
-    text-transform: capitalize;
     transition: all .2s ease-out;
     text-decoration: none;
 }
@@ -42,46 +41,12 @@ section:nth-child(even){
     color:var(--black);
     font-size: 5rem;
     letter-spacing: .4rem;
-    
 }
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
 }
 
-.btn{
-    display: inline-block;
-    margin-top: 1rem;
-    padding: .5rem;
-    padding-left: 1rem;
-    border:var(--border);
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    color:rgb(219, 84, 97);
-    cursor: pointer;
-    font-size: 1.7rem;
-    background: #fff;
-}
-
-.btn span{
-    padding:.7rem 1rem;
-    border-radius: .5rem;
-    background: rgb(219, 84, 97);
-    color:#fff;
-    margin-left: .5rem;
-}
-
-.btn:hover{
-    background: rgb(219, 84, 97);
-    color:#fff;
-}
-
-.btn:hover span{
-    color: var(--green);
-    background:#fff;
-    margin-left: 1rem;
-}
 
 .header{
     padding:2rem 9%;
@@ -95,6 +60,9 @@ section:nth-child(even){
     background: #fff;
 }
 
+span{
+    color: rgb(219, 84, 97)
+}
 .header .logo{
     font-size: 2.5rem;
     color: var(--black);
@@ -102,10 +70,6 @@ section:nth-child(even){
 
 .header .logo i{
     color: var(--green);
-}
-
-span{
-    color: rgb(219, 84, 97)
 }
 
 .header .navbar a{
@@ -122,43 +86,68 @@ span{
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:rgb(219, 84, 97);
+    color:var(--green);
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
 }
 
-.doctors .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:2rem;
-    padding-bottom: 10px;
-}
 
-.doctors .box-container .box{
-    text-align: center;
-    background:#fff;
-    border-radius: .5rem;
-    border:var(--border);
-    box-shadow: var(--box-shadow);
-    padding:2rem;
+.heading{
+    padding-top: 100px;
 }
+.main{
 
-.doctors .box-container .box img{
-    height: 20rem;
-    border:var(--border);
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.doctors .box-container .box h3{
-    color:var(--black);
-    font-size: 2.5rem;
-}
-
-.doctors .box-container .box span{
-    color:rgb(219, 84, 97);
-    font-size: 1.5rem;
-}
-
+    margin: 2%;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+       }
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     
+   
+    
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 10px;
+     
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+   
+   .des{
+     padding: 3px;
+     text-align: center;
+    
+     padding-top: 10px;
+           border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: rgb(219, 84, 97);
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }

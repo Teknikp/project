@@ -60,7 +60,7 @@ span{
     border:var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    color:var(--green);
+    color:rgb(219, 84, 97);
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
@@ -69,18 +69,18 @@ span{
 .btn span{
     padding:.7rem 1rem;
     border-radius: .5rem;
-    background: var(--green);
+    background: rgb(219, 84, 97);
     color:#fff;
     margin-left: .5rem;
 }
 
 .btn:hover{
-    background: var(--green);
+    background: rgb(219, 84, 97);
     color:#fff;
 }
 
 .btn:hover span{
-    color: var(--green);
+    color: rgb(219, 84, 97);
     background:#fff;
     margin-left: 1rem;
 }
@@ -120,7 +120,7 @@ span{
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:var(--green);
+    color:rgb(219, 84, 97);
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
@@ -144,7 +144,7 @@ span{
 
 .icons-container .icons i{
     font-size: 4.5rem;
-    color:var(--green);
+    color:rgb(219, 84, 97);
     padding-bottom: .7rem;
 }
 
@@ -175,7 +175,7 @@ span{
 }
 
 .services .box-container .box i{
-    color: var(--green);
+    color: rgb(219, 84, 97);
     font-size: 5rem;
     padding-bottom: .5rem;
 }
