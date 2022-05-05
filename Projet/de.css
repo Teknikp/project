@@ -80,6 +80,9 @@ section:nth-child(even){
     color: var(--green);
 }
 
+span{
+    color: rgb(219, 84, 97);
+}
 
 .container{
     position: relative;

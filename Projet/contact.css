@@ -84,6 +84,9 @@ section:nth-child(even){
     margin-left: 1rem;
 }
 
+span{
+    color: rgb(219, 84, 97);
+}
 .header{
     padding:2rem 9%;
     position: fixed;

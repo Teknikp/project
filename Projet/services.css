@@ -49,6 +49,9 @@ section:nth-child(even){
     color:var(--green);
 }
 
+span{
+    color: rgb(219, 84, 97);
+}
 .btn{
     display: inline-block;
     margin-top: 1rem;
