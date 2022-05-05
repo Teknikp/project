@@ -113,7 +113,7 @@ span{
 }
 
 .header .navbar a:hover{
-    color: var(--green);
+    color: rgb(219, 84, 97);
 }
 
 #menu-btn{
