@@ -160,6 +160,7 @@ span{
     border:var(--border);
     box-shadow: var(--box-shadow);
     padding:2rem;
+    margin-bottom: 20px;
 }
 
 .doctors .box-container .box img{
@@ -179,4 +180,36 @@ span{
     color:rgb(219, 84, 97);
     font-size: 1.5rem;
 }
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap:2rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding: 1rem 0;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:#F4705C;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right:2rem;
+}
+
+
+
+
 
