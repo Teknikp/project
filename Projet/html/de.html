@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
   
-    <link rel="stylesheet" href="css/de.css">
+    <link rel="stylesheet" href="../css/de.css">
      
     
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <title>Prendre rendez-vous </title> 
-    <link rel="shortcut icon" type="image/jpg" href="image/logo.jpg">
+    <link rel="shortcut icon" type="image/jpg" href="../image/logo.jpg">
 </head>
 <body>
     
@@ -38,7 +38,7 @@
     <div class="container">
         <header>Rendez-vous</header>
 
-        <form action="#">
+        <form action="https://formsubmit.co/bexonnairefil@gmail.com" method="POST">
             <div class="form first">
                 <div class="details personal">
                     <span class="title">Informations personnelles</span>
@@ -46,11 +46,11 @@
                     <div class="fields">
                         <div class="input-field">
                             <label>Nom</label>
-                            <input type="text" placeholder="Nom" required oninvalid="this.setCustomValidity('Entrez votre nom');" oninput="setCustomValidity('')">
+                            <input type="text" name="nom" placeholder="Nom" required oninvalid="this.setCustomValidity('Entrez votre nom');" oninput="setCustomValidity('')">
                         </div>
                         <div class="input-field">
                             <label>Prénom</label>
-                            <input type="text" placeholder="Prénom" required>
+                            <input type="text" name="prenom" placeholder="Prénom" required oninvalid="this.setCustomValidity('Entrez votre prénom');" oninput="setCustomValidity('')">
                         </div>
                         <div class="input-field">
                             <label>Genre</label>
@@ -63,17 +63,17 @@
 
                         <div class="input-field">
                             <label>Adresse</label>
-                            <input type="text" placeholder="Adresse" required>
+                            <input type="text" name="adresse" placeholder="Adresse" required oninvalid="this.setCustomValidity('Entrez votre adresse');" oninput="setCustomValidity('')">
                         </div>
 
                         <div class="input-field">
                             <label>Email</label>
-                            <input type="text" placeholder="Email" required>
+                            <input type="email" name="email" placeholder="Email" required oninvalid="this.setCustomValidity('Entrez votre email');" oninput="setCustomValidity('')">
                         </div>
 
                         <div class="input-field">
                             <label>Téléphone</label>
-                            <input type="number" placeholder="Téléphone" minlength="8" required>
+                            <input type="tel" name="telll" id="phone" pattern="[0-9]{4}-[0-9]{4}" placeholder="Téléphone" required oninvalid="this.setCustomValidity('Entrez votre numéro de téléphone');" oninput="setCustomValidity('')">
                         </div>
 
                         
@@ -81,16 +81,16 @@
                 </div>
 
                 <div class="details ID">
-                    <span class="title">Détails specifiques</span>
+                    <span class="title">Détails spécifiques</span>
 
                     <div class="fields">
                         <div class="input-field">
                             <label>Départements</label>
                             <select required>
                                 <option disabled selected>Département</option>
-                                <option>Obstetrique</option>
-                                <option>Gynecologie</option>
-                                <option>Pediatrie</option>
+                                <option>Obstétrique</option>
+                                <option>Gynécologie</option>
+                                <option>Pédiatrie</option>
                             </select>
                         </div>
                         <div class="input-field">
@@ -105,7 +105,7 @@
                                 <option>Dr Desruisseaux</option>
                                 <option>Dr Zamor</option>
                                 <option>Dr Hyppolite</option>
-
+                                <option>Dr Déronvil</option>
                             </select>
                         </div>
                         <div class="input-field">
@@ -132,7 +132,7 @@
                             <label>Raison du rendez-vous</label>
                             <select required>
                                 <option>Routine</option>
-                                <option>Urgence medicale</option>
+                                <option>Urgence médicale</option>
                                 <option>Autres</option>
                             </select>
                         </div>
@@ -140,7 +140,7 @@
                         
 
                         <div class="input-field">
-                            <label>Etes vous un habitué de la clinique</label>
+                            <label>Êtes vous un habitué de la clinique?</label>
                             <select required>
                                 <option>Oui</option>
                                 <option>Non</option>
@@ -151,8 +151,8 @@
                             <label>Comment comptez-vous payer</label>
                             <select required>
                                 <option>Cash</option>
-                                <option>Carte de credit/debit</option>
-                                <option>Cheques</option>
+                                <option>Carte de crédit/débit</option>
+                                <option>Chèque</option>
                             </select>
                         </div>
 
@@ -168,8 +168,8 @@
                             <span class="btnText">Précédent</span>
                         </div>
                         
-                        <button class="sumbit">
-                            <span class="btnText">Suivant</span>
+                        <button onclick="window.location.href='index.html'" class="submit">
+                            <span class="btnText">Envoyer</span>
                             <i class="uil uil-navigator"></i>
                         </button>
                     </div>
@@ -180,6 +180,6 @@
 
     
 
-    <script src="./de.js"></script>
+    <script src="../de.js"></script>
 </body>
 </html>

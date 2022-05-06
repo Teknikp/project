@@ -47,7 +47,7 @@ section:nth-child(even){
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
+    
 }
 
 .btn{
@@ -67,7 +67,7 @@ section:nth-child(even){
 .btn span{
     padding:.7rem 1rem;
     border-radius: .5rem;
-    background: rgb(219, 84, 97);
+    background: rgb(202, 194, 194);
     color:#fff;
     margin-left: .5rem;
 }
