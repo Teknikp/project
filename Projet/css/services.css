@@ -160,13 +160,13 @@ span{
     color:var(--light-color);
 }
 
-.services .box-container{
+.services .cases{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
 }
 
-.services .box-container .box{
+.services .cases .box{
     background:#fff;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -174,19 +174,19 @@ span{
     padding: 2.5rem;
 }
 
-.services .box-container .box i{
+.services .cases .box i{
     color: rgb(219, 84, 97);
     font-size: 5rem;
     padding-bottom: .5rem;
 }
 
-.services .box-container .box h3{
+.services .cases .box h3{
     color: var(--black);
     font-size: 2.5rem;
     padding:1rem 0;
 }
 
-.services .box-container .box p{
+.services .cases .box p{
     color: var(--light-color);
     font-size: 1.4rem;
     line-height: 2;

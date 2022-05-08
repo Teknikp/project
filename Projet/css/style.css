@@ -129,7 +129,7 @@ span{
     padding: 1rem 0;
 }
 
-.icons-container{
+.services{
     display: grid;
     gap:2rem;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -137,7 +137,7 @@ span{
     padding-bottom: 5rem;
 }
 
-.icons-container .icons{
+.services .icons{
     border:var(--border);
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
@@ -145,20 +145,20 @@ span{
     padding: 2.5rem;
 }
 
-.icons-container .icons i{
+.services .icons i{
     font-size: 4.5rem;
     color:black;
     padding-bottom: .7rem;
 }
 
-.icons-container .icons h3{
+.services .icons h3{
     font-size: 4.5rem;
     color:var(--black);
     padding: .5rem 0;
     text-shadow: var(--text-shadow);
 }
 
-.icons-container .icons p{
+.services .icons p{
     font-size: 1.7rem;
     color:var(--light-color);
 }
@@ -216,33 +216,33 @@ span{
 
 
 
-.about .row{
+.propos .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap:2rem;
 }
 
-.about .row .image{
+.propos .row .image{
     flex:1 1 45rem;
 }
 
-.about .row .image img{
+.propos .row .image img{
     width: 100%;
 }
 
-.about .row .content{
+.propos .row .contenu{
     flex:1 1 45rem;
 }
 
-.about .row .content h3{
+.propos .row .contenu h3{
     color: var(--black);
     text-shadow: var(--text-shadow);
     font-size: 4rem;
     line-height: 1.8;
 }
 
-.about .row .content p{
+.propos .row .contenu p{
     color: var(--light-color);
     padding:1rem 0;
     font-size: 1.5rem;
