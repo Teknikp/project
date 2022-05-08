@@ -56,7 +56,6 @@ section:nth-child(even){
     padding-left: 1rem;
     border:var(--border);
     border-radius: 25px;
-    box-shadow: var(--box-shadow);
     color:rgb(153, 113, 113);
     cursor: pointer;
     font-size: 1.7rem;
