@@ -103,7 +103,7 @@ span{
    .card{
         width: 20%;
         display: inline-block;
-        box-shadow: 2px 2px 20px black;
+        box-shadow: 2px 2px 20px #b3b3b3;
         border-radius: 5px;
         margin-left: 110px; 
         

@@ -4,7 +4,7 @@
 :root{
     --black:#444;
     --light-color:#777;
-    --box-shadow:.5rem .5rem 0 white;
+    --box-shadow:.5rem .5rem 0 #b3b3b3;
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
     --border: 0.4rem solid #b3b3b3;
 }
