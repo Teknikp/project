@@ -13,7 +13,6 @@
     margin:0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
-    transition: all .2s ease-out;
     text-decoration: none;
 }
 
@@ -127,7 +126,8 @@ span{
 }
 
 .content-table {
-    margin-top: 80px;
+    margin-top: 140px;
+    margin-bottom: 40px;
     font-size: 14px;
     min-width: 1300px;
     border-radius: 5px 5px 0 0;

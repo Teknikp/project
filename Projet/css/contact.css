@@ -6,7 +6,7 @@
     --light-color:#777;
     --box-shadow:.5rem .5rem 0 white;
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-    --border: 1rem solid #b3b3b3;
+    --border: 0.4rem solid #b3b3b3;
 }
 
 *{
@@ -15,7 +15,6 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-transform: capitalize;
-    transition: all .2s ease-out;
     text-decoration: none;
 }
 

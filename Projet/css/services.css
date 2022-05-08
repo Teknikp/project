@@ -14,7 +14,7 @@
     margin:0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
-    transition: all .2s ease-out;
+   
     text-decoration: none;
 }
 
@@ -68,8 +68,8 @@ span{
 
 .btn span{
     padding:.7rem 1rem;
-    border-radius: .5rem;
-    background: rgb(219, 84, 97);
+    border-radius: 25px;
+    background: rgb(202, 194, 194);
     color:#fff;
     margin-left: .5rem;
 }
