@@ -43,7 +43,7 @@ section:nth-child(even){
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
+    
 }
 
 
@@ -65,9 +65,7 @@ section:nth-child(even){
     color: var(--black);
 }
 
-.header .logo i{
-    color: var(--green);
-}
+
 
 .header .navbar a{
     font-size: 1.7rem;
@@ -83,7 +81,7 @@ section:nth-child(even){
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:var(--green);
+    
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
@@ -132,16 +130,7 @@ span{
     background-color: #fff;
     transition: 0.3s ease;
 }
-.container form .form.second{
-    opacity: 0;
-    pointer-events: none;
-    transform: translateX(100%);
-}
-form.secActive .form.second{
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateX(0);
-}
+
 form.secActive .form.first{
     opacity: 0;
     pointer-events: none;

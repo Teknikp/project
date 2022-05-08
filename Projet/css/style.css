@@ -71,9 +71,7 @@ span{
     color: var(--black);
 }
 
-.header .logo i{
-    color: var(--green);
-}
+
 
 .header .navbar a{
     font-size: 1.7rem;

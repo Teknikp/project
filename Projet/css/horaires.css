@@ -44,7 +44,7 @@ section:nth-child(even){
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
+    
 }
 
 .btn{
@@ -75,7 +75,7 @@ section:nth-child(even){
 }
 
 .btn:hover span{
-    color: var(--green);
+   
     background:#fff;
     margin-left: 1rem;
 }
@@ -97,9 +97,7 @@ section:nth-child(even){
     color: var(--black);
 }
 
-.header .logo i{
-    color: var(--green);
-}
+
 
 span{
     color: rgb(219, 84, 97)
@@ -125,7 +123,7 @@ span{
     display: none;
 }
 
-.content-table {
+.tableau {
     margin-top: 140px;
     margin-bottom: 40px;
     font-size: 14px;
@@ -135,31 +133,31 @@ span{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   }
   
-  .content-table thead tr {
+  .tableau thead tr {
     background-color: rgb(219, 84, 97);
     color: #ffffff;
     text-align: left;
     font-weight: bold;
   }
   
-  .content-table th,
-  .content-table td {
+  .tableau th,
+  .tableau td {
     padding: 12px 15px;
   }
   
-  .content-table tbody tr {
+  .tableau tbody tr {
     border-bottom: 1px solid #dddddd;
   }
   
-  .content-table tbody tr:nth-of-type(even) {
+  .tableau tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
   }
   
-  .content-table tbody tr:last-of-type {
+  .tableau tbody tr:last-of-type {
     border-bottom: 2px solid rgb(219, 84, 97);
   }
   
-  .content-table tbody tr.active-row {
+  .tableau tbody tr.case {
     font-weight: bold;
     color: black;
   }
