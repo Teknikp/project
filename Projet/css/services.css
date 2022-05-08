@@ -4,7 +4,7 @@
     --green:#16a085;
     --black:#444;
     --light-color:#777;
-    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --box-shadow:.5rem .5rem 0 white;
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
     --border:.2rem solid red;
 }
@@ -58,7 +58,7 @@ span{
     padding: .5rem;
     padding-left: 1rem;
     border:var(--border);
-    border-radius: .5rem;
+    border-radius: 25px;
     box-shadow: var(--box-shadow);
     color:rgb(219, 84, 97);
     cursor: pointer;
@@ -137,7 +137,7 @@ span{
 .icons-container .icons{
     border:var(--border);
     box-shadow: var(--box-shadow);
-    border-radius: .5rem;
+    border-radius: 25px;
     text-align: center;
     padding: 2.5rem;
 }
@@ -168,7 +168,7 @@ span{
 
 .services .cases .box{
     background:#fff;
-    border-radius: .5rem;
+    border-radius: 25px;
     box-shadow: var(--box-shadow);
     border:var(--border);
     padding: 2.5rem;

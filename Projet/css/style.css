@@ -3,7 +3,7 @@
 :root{
     --black:#444;
     --light-color:#777;
-    --box-shadow:.5rem .5rem 0 #F4705C;
+    --box-shadow:.5rem .5rem 0 white;
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
     --border:.2rem solid #F4705C;
 }
@@ -140,7 +140,7 @@ span{
 .services .icons{
     border:var(--border);
     box-shadow: var(--box-shadow);
-    border-radius: .5rem;
+    border-radius: 25px;
     text-align: center;
     padding: 2.5rem;
 }

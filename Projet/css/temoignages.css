@@ -1,7 +1,7 @@
 :root{
     --black:#444;
     --light-color:#777;
-    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --box-shadow:.5rem .5rem 0 white;
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
     --border:.2rem solid red;
 }
@@ -124,16 +124,16 @@ span{
     display: none;
 }
 
-.review .box-container{
+.review .cases{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap:2rem;
 }
 
-.review .box-container .box{
+.review .cases .box{
     border:var(--border);
     box-shadow: var(--box-shadow);
-    border-radius: .5rem;
+    border-radius: 25px;
     padding:2.5rem;
     background: #f5f5f5;
     text-align: center;
@@ -142,7 +142,7 @@ span{
     z-index: 0;
 }
 
-.review .box-container .box img{
+.review .cases .box img{
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
@@ -150,25 +150,25 @@ span{
     border:.5rem solid #fff;
 }
 
-.review .box-container .box h3{
+.review .cases .box h3{
     color:#fff;
     font-size: 2.2rem;
     padding:.5rem 0;
 }
 
-.review .box-container .box .stars i{
+.review .cases .box .stars i{
     color:#f5f5f5;
     font-size: 1.5rem;
 }
 
-.review .box-container .box .text{
+.review .cases .box .text{
     color:var(--light-color);
     line-height: 1.8;
     font-size: 1.6rem;
     padding-top: 4rem;
 }
 
-.review .box-container .box::before{
+.review .cases .box::before{
     content: '';
     position: absolute;
     top:-4rem; left: 50%;
