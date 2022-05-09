@@ -156,7 +156,7 @@ span{
 
 
 .temoignages .cases .box .text{
-    color:var(--light-color);
+    color:#f3efef;
     line-height: 1.8;
     font-size: 1.6rem;
     padding-top: 4rem;
@@ -167,7 +167,7 @@ span{
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:rgb(218, 160, 160);
+    background:rgb(219, 84, 97);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
