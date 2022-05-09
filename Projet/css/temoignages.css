@@ -132,7 +132,7 @@ span{
     box-shadow: var(--box-shadow);
     border-radius: 25px;
     padding:2.5rem;
-    background:#ffaaaa;
+    background: #f3efef;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -156,7 +156,7 @@ span{
 
 
 .temoignages .cases .box .text{
-    color:#f3efef;
+    color:var(--light-color);
     line-height: 1.8;
     font-size: 1.6rem;
     padding-top: 4rem;

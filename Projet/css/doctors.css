@@ -3,7 +3,7 @@
 :root{
     --black:#444;
     --light-color:#777;
-    --box-shadow:.5rem .5rem 0 #b3b3b3;
+    --box-shadow:.5rem .5rem 0 #dfdbdb;
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
     --border:.2rem solid rgb(219, 84, 97);
 }
@@ -43,6 +43,20 @@ section:nth-child(even){
     letter-spacing: .4rem;
     
 }
+
+.headingt{
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 70px;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 5rem;
+    letter-spacing: .4rem;
+    
+}
+
+
 
 .heading2{
     text-align: center;
