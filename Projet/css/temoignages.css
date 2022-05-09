@@ -167,7 +167,7 @@ span{
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:#c7004c;
+    background:rgb(218, 160, 160);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
