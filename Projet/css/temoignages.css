@@ -132,7 +132,7 @@ span{
     box-shadow: var(--box-shadow);
     border-radius: 25px;
     padding:2.5rem;
-    background: #f5f5f5;
+    background:#ffaaaa;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -153,10 +153,7 @@ span{
     padding:.5rem 0;
 }
 
-.temoignages .cases .box .stars i{
-    color:#f5f5f5;
-    font-size: 1.5rem;
-}
+
 
 .temoignages .cases .box .text{
     color:var(--light-color);
@@ -170,7 +167,7 @@ span{
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:rgb(219, 84, 97);
+    background:#c7004c;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
